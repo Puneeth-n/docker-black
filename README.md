@@ -11,3 +11,4 @@ Add this function to your .bashrc/.zshrc:
     black() { docker run -v $(pwd):/code jbbarth/black $*; }
 
 Reload your shell (source or exit/reopen) and you're good to go!
+
